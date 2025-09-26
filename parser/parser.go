@@ -3,13 +3,11 @@
 //line parser.go.y:2
 package parser
 
-import __yyfmt__ "fmt"
-
-//line parser.go.y:2
-
 import (
-	"github.com/mattn/anko/ast"
-)
+	__yyfmt__ "fmt"
+
+	"github.com/kingecg/anko/ast"
+) //line parser.go.y:2
 
 //line parser.go.y:45
 type yySymType struct {

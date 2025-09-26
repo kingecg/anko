@@ -1,3 +1,4 @@
+//go:build !appengine
 // +build !appengine
 
 package main
@@ -11,11 +12,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mattn/anko/core"
-	"github.com/mattn/anko/env"
-	_ "github.com/mattn/anko/packages"
-	"github.com/mattn/anko/parser"
-	"github.com/mattn/anko/vm"
+	"github.com/kingecg/anko/core"
+	"github.com/kingecg/anko/env"
+	_ "github.com/kingecg/anko/packages"
+	"github.com/kingecg/anko/parser"
+	"github.com/kingecg/anko/vm"
 )
 
 const version = "0.1.8"

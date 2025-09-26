@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"reflect"
 
-	"github.com/mattn/anko/env"
+	"github.com/kingecg/anko/env"
 )
 
 func init() {

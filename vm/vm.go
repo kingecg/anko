@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/mattn/anko/ast"
-	"github.com/mattn/anko/env"
+	"github.com/kingecg/anko/ast"
+	"github.com/kingecg/anko/env"
 )
 
 // Options provides options to run VM with

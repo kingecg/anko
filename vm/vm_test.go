@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattn/anko/ast"
-	"github.com/mattn/anko/ast/astutil"
-	"github.com/mattn/anko/env"
-	"github.com/mattn/anko/parser"
+	"github.com/kingecg/anko/ast"
+	"github.com/kingecg/anko/ast/astutil"
+	"github.com/kingecg/anko/env"
+	"github.com/kingecg/anko/parser"
 )
 
 func TestNumbers(t *testing.T) {
